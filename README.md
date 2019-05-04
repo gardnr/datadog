@@ -5,5 +5,5 @@ DataDog exporter using the HTTP interface
 ```
 python3 -m pip install -r requirements.txt
 
-gardnr add driver datadog datadog.driver:DataDog -c api_key=<api key> -c app_key=<app key>
+gardnr add driver datadog datadog.driver:DataDog -c api_key=<api key> app_key=<app key>
 ```
